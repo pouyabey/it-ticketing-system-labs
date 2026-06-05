@@ -177,88 +177,24 @@ Created a new ticket in Spiceworks with the requester, summary, description, pri
 
 ---
 
-### 2. Ticket Created
 
-The Outlook sync issue ticket was created and added to the Spiceworks Help Desk dashboard.
 
 ![Ticket Created](./screenshots/02-outlook-sync-ticket-created.png)
 
 ---
 
-### 3. Initial Public Response
-
-Sent a professional public response to acknowledge the user’s issue and confirm that troubleshooting would begin.
 
 ![Initial Public Response](./screenshots/03-initial-public-response.png)
 
 ---
 
-### 4. Initial Internal Note
 
-Added an internal note documenting the initial review, business impact, and reason for setting the priority to High.
-
-![Initial Internal Note](./screenshots/04-initial-internal-note.png)
+![Initial Internal Note](./screenshots/04-troubleshooting-steps.png)
 
 ---
 
-### 5. Follow-Up Question
 
-Asked the user whether the issue was happening only in the Outlook desktop application or also in Outlook Web App.
-
-![Follow-Up Question](./screenshots/05-follow-up-question.png)
+![Follow-Up Question](./screenshots/05-resolution-note.png)
 
 ---
 
-### 6. Waiting Status
-
-Changed the ticket status to Waiting while waiting for the user to provide more information.
-
-![Waiting Status](./screenshots/06-ticket-status-waiting.png)
-
----
-
-### 7. Troubleshooting Steps
-
-Documented the troubleshooting steps used to investigate the Outlook sync issue.
-
-![Troubleshooting Steps](./screenshots/07-troubleshooting-steps.png)
-
----
-
-### 8. Resolution Note
-
-Documented the resolution after Outlook was restarted and the account was reconnected.
-
-![Resolution Note](./screenshots/08-resolution-note.png)
-
----
-
-### 9. Verification Note
-
-Documented that the user confirmed new emails were syncing and accessible.
-
-![Verification Note](./screenshots/09-verification-note.png)
-
----
-
-### 10. Escalation Notes
-
-Documented that no escalation was needed because the issue was resolved through Tier 1 troubleshooting.
-
-![Escalation Notes](./screenshots/10-escalation-notes.png)
-
----
-
-### 11. Final Public Update
-
-Sent a final public update explaining that the issue was resolved and the ticket would be closed.
-
-![Final Public Update](./screenshots/11-final-public-update.png)
-
----
-
-### 12. Ticket Closed
-
-Closed the ticket after successful resolution and user verification.
-
-![Ticket Closed](./screenshots/12-ticket-closed.png)
