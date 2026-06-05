@@ -169,9 +169,6 @@ The main takeaway from this lab is that a good support ticket should clearly sho
 
 ## Screenshots
 
-### 1. Ticket Creation Form
-
-Created a new ticket in Spiceworks with the requester, summary, description, priority, category, and assignment information.
 
 ![Ticket Creation Form](./Screenshots/01-ticket-creation-form.png)
 
