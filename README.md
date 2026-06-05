@@ -2,9 +2,53 @@
 
 ## Overview
 
-This repository contains hands-on IT Help Desk ticketing labs focused on practicing real-world Tier 1 support workflows. The purpose of these labs is to demonstrate how support tickets are created, categorized, prioritized, documented, updated, resolved, and closed in a professional help desk environment.
+This repository contains hands-on IT Help Desk ticketing labs focused on practicing real-world Tier 1 support workflows. Each lab simulates a different support scenario and demonstrates how a support ticket can be created, categorized, prioritized, documented, updated, resolved, and closed in a professional help desk environment.
 
-The first lab in this repository uses Spiceworks Cloud Help Desk and simulates an Outlook email sync issue reported by a user. Future labs may include other common IT support scenarios such as printer issues, password resets, network connectivity problems, hardware troubleshooting, software installation requests, and account access issues.
+The purpose of this repository is to document practical IT support skills such as ticket creation, user communication, troubleshooting documentation, internal notes, priority assessment, escalation decisions, resolution notes, and user verification.
+
+---
+
+## Labs
+
+| Lab | Scenario | Tool / Platform | Focus Area |
+|---|---|---|---|
+| [Lab 01: Outlook Sync Issue](./Lab-01-Outlook-Sync-Issue/README.md) | User cannot receive new emails in Outlook | Spiceworks Cloud Help Desk | Email troubleshooting, public comments, internal notes, resolution documentation |
+| [Lab 02: Password Reset Request](./Lab-02-Password-Reset-Request/README.md) | User is locked out and needs password support | Ticketing System / Active Directory Concept | Account access, identity verification, password reset workflow |
+| [Lab 03: Printer Not Responding](./Lab-03-Printer-Not-Responding/README.md) | User cannot print to an office printer | Ticketing System / Printer Support | Printer troubleshooting, device checks, user communication |
+| [Lab 04: Wi-Fi Connectivity Issue](./Lab-04-WiFi-Connectivity-Issue/README.md) | User cannot connect to office Wi-Fi | Ticketing System / Network Support | Network troubleshooting, impact assessment, escalation decision |
+| [Lab 05: New Workstation Setup](./Lab-05-New-Workstation-Setup/README.md) | New employee needs workstation setup | Ticketing System / Endpoint Support | Device preparation, software installation, deployment documentation |
+
+---
+
+## Repository Structure
+
+Each lab has its own folder, README file, and screenshots.
+
+Example structure:
+
+IT-Ticketing-System-Labs/
+│
+├── README.md
+│
+├── Lab-01-Outlook-Sync-Issue/
+│   ├── README.md
+│   └── screenshots/
+│
+├── Lab-02-Password-Reset-Request/
+│   ├── README.md
+│   └── screenshots/
+│
+├── Lab-03-Printer-Not-Responding/
+│   ├── README.md
+│   └── screenshots/
+│
+├── Lab-04-WiFi-Connectivity-Issue/
+│   ├── README.md
+│   └── screenshots/
+│
+└── Lab-05-New-Workstation-Setup/
+    ├── README.md
+    └── screenshots/
 
 ---
 
@@ -90,6 +134,7 @@ Examples:
 - Printer issue
 - Password reset
 - Application support
+- Device setup
 
 ### Priority
 
@@ -110,7 +155,7 @@ Priority should be based on both business impact and urgency.
 | Critical (P1) | Major outage or business-wide issue | High | Company email system is down |
 | High (P2) | Important issue affecting business work | Moderate to High | User cannot access time-sensitive client emails |
 | Medium (P3) | Single-user issue with limited impact | Low to Moderate | Outlook is not syncing for one user without an urgent deadline |
-| Low (P4) | Minor request or non-urgent issue | Minimal | User needs a new mouse or basic software question |
+| Low (P4) | Minor request or non-urgent issue | Minimal | User needs a new mouse or has a basic software question |
 
 ---
 
@@ -163,7 +208,7 @@ Examples:
 
 ## Status Types
 
-Different ticketing systems may use different status names. In this lab, the main statuses are Open, Waiting, and Closed.
+Different ticketing systems may use different status names. In these labs, the most common statuses are Open, Waiting, and Closed.
 
 | Status | Meaning |
 |---|---|
@@ -358,7 +403,7 @@ The general workflow used in these labs is:
 
 ## Getting Started with Spiceworks
 
-For this lab, I used Spiceworks Cloud Help Desk.
+For the first lab, I used Spiceworks Cloud Help Desk.
 
 Basic steps:
 
@@ -376,119 +421,9 @@ Basic steps:
 
 ---
 
-# Lab 01: Outlook Sync Issue
-
-## Scenario
-
-A user from the Finance Department reported that their Outlook inbox was not syncing. The user was missing important time-sensitive client emails and needed access to email as soon as possible.
-
-Because the issue affected business communication and involved time-sensitive client messages, the ticket was categorized as a Software/Email issue and assigned High priority.
-
----
-
-## Ticket Details
-
-Ticket Summary:
-Outlook inbox not syncing - Missing important time-sensitive emails
-
-Requester:
-Andrew - Finance Department
-
-Category:
-Software / Email
-
-Priority:
-High
-
-Initial Status:
-Open
-
-Final Status:
-Closed
-
-Assigned To:
-IT Support Technician
-
----
-
-## User Issue Description
-
-The user reported that their Outlook inbox was not syncing and that they were missing important emails from recent clients. The user also stated that they had not changed or updated anything recently.
-
-The user was located on the first floor of the main building and was available until 3 PM for troubleshooting.
-
----
-
-## Initial Public Response
-
-Hi Andrew, thank you for reaching out. I understand that your Outlook inbox is not syncing and that you need access to time-sensitive client emails today. I’ll begin troubleshooting shortly and keep you updated.
-
----
-
-## Initial Internal Note
-
-Initial review: User reports that Outlook inbox is not syncing and that they are missing time-sensitive client emails. Priority set to High due to business impact and urgency.
-
----
-
-## Follow-Up Question Sent to User
-
-Hi Andrew, are you able to access your email through Outlook Web App, or is the issue only happening in the Outlook desktop application? Also, are you receiving any error messages when Outlook tries to sync?
-
----
-
-## Waiting Status Documentation
-
-Asked user to confirm whether email access works through Outlook Web App and whether the sync issue is limited to the Outlook desktop application. Waiting for user response before continuing troubleshooting.
-
-Status changed to Waiting.
-
----
-
-## Troubleshooting Steps
-
-- Confirmed whether the issue occurs in Outlook Web App or only in the Outlook desktop application.
-- Verified that the user is connected to the network and can access other internet or internal resources.
-- Checked for any visible sync errors or error messages.
-- Restarted the Outlook desktop application.
-- Reconnected the Outlook account.
-- Confirmed that new emails began syncing successfully.
-
----
-
-## Resolution
-
-Outlook desktop application was not syncing new emails. Outlook Web App was working, so the issue appeared to be limited to the desktop application. Restarted Outlook and reconnected the account. New emails began syncing successfully.
-
----
-
-## Verification
-
-User confirmed that new emails are now syncing in Outlook and that they can access the time-sensitive client emails.
-
----
-
-## Escalation Notes
-
-No escalation was needed. The issue was resolved through initial Tier 1 troubleshooting and did not require Tier 2 support.
-
----
-
-## Final Public Update
-
-Hi Andrew, your Outlook inbox should now be syncing properly. I’ll close this ticket now, but please let us know if the issue returns.
-
----
-
-## Closing Note
-
-Ticket closed after successful resolution and user verification.
-
----
-
 ## Skills Demonstrated
 
-This lab demonstrates the following IT support skills:
+This repository demonstrates the following IT support skills:
 
 - Help Desk ticket creation
 - Ticket documentation
@@ -503,12 +438,12 @@ This lab demonstrates the following IT support skills:
 - Escalation decision-making
 - Tier 1 troubleshooting workflow
 - Professional written communication
-- Basic Outlook troubleshooting
+- Basic software, hardware, network, account, and endpoint support concepts
 
 ---
 
 ## Key Takeaways
 
-This lab helped me practice how to manage an IT support ticket in a structured and professional way.
+These labs are designed to build practical IT support documentation skills. The main focus is not only solving the issue, but also creating a clear record of what happened, what was communicated, what troubleshooting was completed, whether escalation was needed, and how the issue was resolved.
 
-The most important takeaway is that good ticket documentation is not only about fixing the issue. It is also about creating a clear record of what happened, what was communicated, what troubleshooting was completed, whether escalation was needed, and how the issue was resolved.
+Good ticket documentation helps IT teams provide consistent support, reduce repeated troubleshooting, improve communication, and maintain a reliable history of support actions.
