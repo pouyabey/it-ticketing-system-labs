@@ -179,22 +179,22 @@ Created a new ticket in Spiceworks with the requester, summary, description, pri
 
 
 
-![Ticket Created](./screenshots/02-outlook-sync-ticket-created.png)
+![Ticket Created](./Screenshots/02-outlook-sync-ticket-created.png)
 
 ---
 
 
-![Initial Public Response](./screenshots/03-initial-public-response.png)
+![Initial Public Response](./Screenshots/03-initial-public-response.png)
 
 ---
 
 
-![Initial Internal Note](./screenshots/04-troubleshooting-steps.png)
+![Initial Internal Note](./Screenshots/04-troubleshooting-steps.png)
 
 ---
 
 
-![Follow-Up Question](./screenshots/05-resolution-note.png)
+![Follow-Up Question](./Screenshots/05-resolution-note.png)
 
 ---
 
