@@ -25,7 +25,7 @@ The purpose of this repository is to document practical IT support skills such a
 Each lab has its own folder, README file, and screenshots.
 
 Example structure:
-
+```
 IT-Ticketing-System-Labs/
 │
 ├── README.md
@@ -49,7 +49,7 @@ IT-Ticketing-System-Labs/
 └── Lab-05-New-Workstation-Setup/
     ├── README.md
     └── screenshots/
-
+```
 ---
 
 ## Objectives
