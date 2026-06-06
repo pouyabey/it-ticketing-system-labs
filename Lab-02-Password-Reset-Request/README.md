@@ -100,42 +100,13 @@ Identity verification started before making any changes. Asked user to provide w
 Screenshot:
 ![Identity verification](screenshots/04-identity-verification.png)
 
-## 5. Active Directory Review
+## 5. Troubleshooting steps , Resolution, Verification, Escalate note
 
 After identity verification was completed, the user account was checked in Active Directory. The account was confirmed to be locked due to several incorrect password attempts.
 
 Screenshot:
 ![Active Directory account review](screenshots/05-active-directory-review.png)
 
-## 6. Resolution
-
-The account was unlocked successfully in Active Directory. A password reset was not required. The user was asked to test login and confirm access.
-
-Resolution note:
-Verified the account status in Active Directory and confirmed the user's account was locked due to several incorrect password attempts. Unlocked the account successfully. A password reset was not required. User was asked to test the login and confirm access.
-
-Screenshot:
-![Resolution note](screenshots/06-resolution-note.png)
-
-## 7. User Confirmation
-
-The user confirmed that the account was unlocked and access to the workstation was restored.
-
-Validation note:
-User confirmed that the account is unlocked. Access to the workstation is restored. The user can continue time-sensitive work.
-
-Screenshot:
-![User confirmation](screenshots/07-user-confirmation.png)
-
-## 8. Escalation
-
-Escalation was not needed because the issue was resolved at Tier 1.
-
-Escalation note:
-An escalation was not needed. The issue was resolved at Tier 1.
-
-Screenshot:
-![Escalation note](screenshots/08-escalation-note.png)
 
 ## Final Outcome
 
