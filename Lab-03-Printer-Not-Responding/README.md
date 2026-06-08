@@ -61,7 +61,12 @@ Escalation: Not required
 
 ![Ticket submission, initial response, and internal review](screenshots/01-ticket-submission-initial-review.png)
 
+
+
 ![User follow-up, power check, on-site note, and troubleshooting steps](screenshots/02-troubleshooting-steps.png)
+
+
+
 
 ![Resolution, verification, escalation, and ticket closure](screenshots/03-resolution-verification-closure.png)
 
